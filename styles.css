@@ -2,19 +2,29 @@
   box-sizing: border-box;
 }
 
+h1 {
+  margin-left: 100px;
+}
+
+/* 1st Section */
+
 .colors {
   border: 2px solid black;
   text-align: center;
-  height: 350px;
+  height: 370px;
+  margin: 20px 100px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .color-box {
   border: 1px solid black;
   text-align: center;
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 300px;
-  margin: 50px 5px;
+  margin: 10px 15px;
+  float: left;
 }
 
 .skyblue {
@@ -45,11 +55,12 @@
   padding: 20px 10px;
   text-align: center;
   height: 350px;
+  margin: 0 100px;
 }
 
 .fonts div {
   display: inline-block;
-  margin: 0 100px;
+  margin: 0 50px;
 }
 
 .fonts p {
@@ -68,4 +79,32 @@
 .avro .avro-em, 
 .lato .lato-em {
   font-style: italic;
+}
+
+/* 3rd Section */
+
+.text-styles {
+  border: 2px solid black;
+  text-align: left;
+  height: 500px;
+  margin: 20px 100px;
+  padding: 0 20px;
+}
+
+.h1-main-heading {
+  font-family: 'Avro', Serif;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.h2-subheading {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.p-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
