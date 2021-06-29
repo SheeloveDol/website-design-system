@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.colors {
+  border: 2px solid black;
+  text-align: center;
+  height: 350px;
+}
+
+.color-box {
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin: 50px 5px;
+}
+
+.skyblue {
+  background-color: #479AD1;
+}
+
+.marine-blue {
+  background-color: #2C365E;
+}
+
+.purple-pink {
+  background-color: #C9A2D2;
+}
+
+.darkgray {
+  background-color: #36393A;
+}
+
+.colors p {
+  color: white;
+}
+
+/* Second Section */
+
+.fonts {
+  border: 2px solid black;
+  margin: 10px 0;
+  padding: 20px 10px;
+  text-align: center;
+  height: 350px;
+}
+
+.fonts div {
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.fonts p {
+  font-size: 18px;
+}
+
+.avro .avro-normal {
+  font-family: 'Avro', Serif;
+}
+
+.avro .avro-bold, 
+.lato .lato-bold {
+  font-weight: bold;
+}
+
+.avro .avro-em, 
+.lato .lato-em {
+  font-style: italic;
+}
