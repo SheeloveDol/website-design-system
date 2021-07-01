@@ -2,29 +2,34 @@
   box-sizing: border-box;
 }
 
-h1 {
-  margin-left: 100px;
+html {
+  width: 85%;
+  margin: 5% auto;
 }
+
+main {
+  height: auto;
+  width: 100%;
+}
+
 
 /* 1st Section */
 
-.colors {
+.container {
   border: 2px solid black;
-  text-align: center;
-  height: 370px;
-  margin: 20px 100px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  height: 33%;
+  margin: 2% auto;
+  padding: 2%;
 }
 
 .color-box {
   border: 1px solid black;
   text-align: center;
   position: relative;
-  /* display: inline-block; */
-  width: 300px;
-  margin: 10px 15px;
-  float: left;
+  width: 20%;
+  margin: 5% 2%;
+  display: inline-block;
 }
 
 .skyblue {
@@ -43,29 +48,29 @@ h1 {
   background-color: #36393A;
 }
 
-.colors p {
+#colors p {
   color: white;
 }
 
 /* Second Section */
 
-.fonts {
-  border: 2px solid black;
-  margin: 10px 0;
-  padding: 20px 10px;
+#fonts {
   text-align: center;
-  height: 350px;
-  margin: 0 100px;
 }
 
-.fonts div {
+#fonts h2 {
+  text-align: left;
+}
+
+#fonts p {
+  font-size: 1.2rem;
+}
+
+.inline-bloc {
   display: inline-block;
-  margin: 0 50px;
+  margin: 2% 5%;
 }
 
-.fonts p {
-  font-size: 18px;
-}
 
 .avro .avro-normal {
   font-family: 'Avro', Serif;
@@ -83,13 +88,6 @@ h1 {
 
 /* 3rd Section */
 
-.text-styles {
-  border: 2px solid black;
-  text-align: left;
-  height: 500px;
-  margin: 20px 100px;
-  padding: 0 20px;
-}
 
 .h1-main-heading {
   font-family: 'Avro', Serif;
@@ -107,4 +105,4 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 400;
-}
+} 
