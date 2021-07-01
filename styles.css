@@ -10,6 +10,7 @@ html {
 main {
   height: auto;
   width: 100%;
+
 }
 
 
@@ -21,6 +22,7 @@ main {
   height: 33%;
   margin: 2% auto;
   padding: 2%;
+  background-color: rgb(245, 239, 239);
 }
 
 .color-box {
